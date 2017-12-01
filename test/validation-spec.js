@@ -1,3 +1,5 @@
+const Validation = Monet.Validation;
+
 describe('A Validation', function () {
     var sideEffectsReceiver = null;
 

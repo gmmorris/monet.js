@@ -1,3 +1,5 @@
+const Reader = Monet.Reader;
+
 describe('A Reader Monad', function () {
 
     var config1 = {

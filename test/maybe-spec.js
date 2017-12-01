@@ -1,3 +1,8 @@
+const Maybe = Monet.Maybe;
+const Some = Monet.Maybe.Some;
+const Nothing = Monet.Maybe.Nothing;
+const None = Monet.Maybe.None;
+
 describe('A Maybe', function () {
     var sideEffectsReceiver;
     var someString;

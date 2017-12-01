@@ -1,3 +1,5 @@
+const IO = Monet.IO;
+
 describe('An IO monad', function () {
     var effect = IO(function () {
         return 'effect';

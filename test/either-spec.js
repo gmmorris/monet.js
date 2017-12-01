@@ -2,6 +2,11 @@
  * Created by chris on 31/10/2013.
  */
 
+const Either = Monet.Either;
+const Right = Monet.Either.Right;
+const Left = Monet.Either.Left;
+const Just = Monet.Maybe.Just;
+
 describe('An Either', function () {
     var sideEffectsReceiver = null;
 

@@ -1,3 +1,6 @@
+const Maybe = Monet.Maybe;
+const monadT = Monet.monadT;
+
 describe('A Monad Transformer', function () {
 
     beforeEach(function () {

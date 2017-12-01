@@ -4,7 +4,7 @@ module.exports = function (config) {
     basePath: '',
     frameworks: ['jasmine'],
     files: [
-      'src/monet.js',
+      'dist/monet.js',
       'test/*-helper.js',
       'test/*-spec.js'
     ],

@@ -1,3 +1,7 @@
+const Reader = Monet.Reader;
+const NEL = Monet.NEL;
+const Validation = Monet.Validation;
+
 describe('The Monad', function () {
 
     var test = function (monad) {

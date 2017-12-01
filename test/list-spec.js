@@ -1,3 +1,8 @@
+const List = Monet.List;
+const Nil = Monet.Nil;
+const Success = Monet.Success;
+const Fail = Monet.Fail;
+
 describe('An immutable list', function () {
     var sideEffectsReceiver = null
 
